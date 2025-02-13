@@ -1,0 +1,29 @@
+1.  Inicio
+2.  // Declaración de variables
+3.  nombre_completo, x(100)[{a-z}, {A-Z}, BS]  // Nombre completo del dueño
+4.  direccion, x(100)[{a-z}, {A-Z}, BS]        // Dirección del domicilio
+5.  costo_por_minuto, d[0-n]                   // Costo por minuto de llamada
+6.  minutos_consumidos, i[0-n]                 // Número de minutos consumidos
+7.  valor_cancelar, d[0-n]                   // Costo total a pagar
+8.  
+9.  // Solicitar entrada de datos
+10. Escribir "Ingrese los nombres completos del dueño de la línea telefónica:"
+11. Leer nombre_completo
+12. Escribir "Ingrese la dirección del domicilio:"
+13. Leer direccion
+14. Escribir "Ingrese el costo por minuto:"
+15. Leer costo_por_minuto
+16. Escribir "Ingrese el número de minutos consumidos en el mes:"
+17. Leer minutos_consumidos
+18.  
+19. // Cálculo del valor a cancelar
+20. valor_cancelar <-- costo_por_minuto * minutos_consumidos
+21.  
+22. // Mostrar el reporte de la planilla
+23. Escribir "Reporte:"
+24. Escribir "Nombres completos: " + nombre_completo
+25. Escribir "Dirección: " + direccion
+26. Escribir "Costo por minuto: $" + costo_por_minuto
+27. Escribir "Número de minutos consumidos: " + minutos_consumidos
+28. Escribir "Valor a cancelar: $" + valor_cancelar
+29. Fin
